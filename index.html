@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile App Showcase</title>
+    <title>Công Ty TNHH Vật Tư Ngành Nước Miền Bắc</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -14,29 +14,27 @@
                 <div class="logo">
                     <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                         <defs>
-                            <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" stop-color="#8a2be2"/>
-                                <stop offset="100%" stop-color="#4169e1"/>
+                            <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#0066cc"/>
+                                <stop offset="100%" stop-color="#0099ff"/>
                             </linearGradient>
-                            <linearGradient id="starGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" stop-color="#f5e1ff"/>
-                                <stop offset="100%" stop-color="#c39bd3"/>
+                            <linearGradient id="dropGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00ccff"/>
+                                <stop offset="100%" stop-color="#66ccff"/>
                             </linearGradient>
                         </defs>
-                        <rect x="20" y="10" width="60" height="80" rx="15" ry="15" fill="#2a1a46" stroke="url(#phoneGradient)" stroke-width="4"/>
-                        <rect x="35" y="25" width="30" height="30" rx="8" ry="8" fill="#2a1a46" stroke="url(#phoneGradient)" stroke-width="4"/>
-                        <polygon points="50,30 55,40 65,42 55,44 50,54 45,44 35,42 45,40" fill="url(#starGradient)" stroke="#f5e1ff" stroke-width="1.5"/>
-                        <circle cx="50" cy="75" r="5" fill="none" stroke="#f5e1ff" stroke-width="4"/>
-                        <line x1="45" y1="15" x2="55" y2="15" stroke="#f5e1ff" stroke-width="4" stroke-linecap="round"/>
+                        <circle cx="50" cy="30" r="20" fill="url(#waterGradient)"/>
+                        <path d="M50 50 Q50 80 30 90 Q50 85 70 90 Q50 80 50 50" fill="url(#dropGradient)"/>
+                        <circle cx="45" cy="25" r="3" fill="white" opacity="0.8"/>
                     </svg>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#" class="active">Trang chủ</a></li>
+                    <li><a href="#features">Sản phẩm</a></li>
+                    <li><a href="#about">Giới thiệu</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#news">Latest</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#news">Tin tức</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,29 +43,29 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>✨ Experience Travel, Simplified</h1>
-                <p>Discover the app designed to make your journeys easier and more enjoyable. With a sleek design and seamless performance, everything you need is just a tap away.</p>
+                <h1>💧 Giải Pháp Toàn Diện Cho Ngành Nước</h1>
+                <p>Công ty TNHH Vật Tư Ngành Nước Miền Bắc - Đối tác tin cậy cung cấp các sản phẩm và giải pháp chất lượng cao cho ngành cấp thoát nước, xử lý nước thải và công nghiệp nước.</p>
                 <div class="app-buttons">
-                    <a href="#" class="btn-app"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="#contact" class="btn-app"><i class="fas fa-phone"></i> Liên Hệ Ngay</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/hero-phone.png" alt="App Screenshot">
+                <img src="images/hero-phone.png" alt="Sản phẩm ngành nước">
             </div>
         </div>
         <div class="stats">
             <div class="container">
                 <div class="stat-item">
-                    <h3>+200M</h3>
-                    <p>Downloads</p>
+                    <h3>+15</h3>
+                    <p>Năm kinh nghiệm</p>
                 </div>
                 <div class="stat-item">
-                    <h3>+480M</h3>
-                    <p>Transactions</p>
+                    <h3>+500</h3>
+                    <p>Dự án hoàn thành</p>
                 </div>
                 <div class="stat-item">
-                    <h3>+180M</h3>
-                    <p>Ratings</p>
+                    <h3>+1000</h3>
+                    <p>Khách hàng tin tưởng</p>
                 </div>
             </div>
         </div>
@@ -75,49 +73,50 @@
 
     <section id="features" class="features">
         <div class="container">
-            <h2 class="section-title">Feature</h2>
+            <h2 class="section-title">Sản Phẩm & Dịch Vụ</h2>
             
             <div class="feature-item">
                 <div class="feature-content">
-                    <h3>Smart Calendar Integration</h3>
-                    <p>Plan Better. Stay Organized. Never Miss a Beat.
-Keep your life in sync with our beautifully designed in-app calendar. Whether it's meetings, birthdays, or big events — track and manage everything with just a tap.</p>
+                    <h3>Thiết Bị Xử Lý Nước</h3>
+                    <p>Chuyên cung cấp các thiết bị xử lý nước công nghiệp và dân dụng chất lượng cao:
+- Bể lọc nước, bể lắng, bể chứa
+- Hệ thống lọc nước tự động
+- Thiết bị khử trùng, làm mềm nước
+- Hóa chất xử lý nước chuyên dụng</p>
                 </div>
                 <div class="feature-image">
-                    <img src="images/feature-1.png" alt="Feature 1">
+                    <img src="images/feature-1.png" alt="Thiết bị xử lý nước">
                 </div>
             </div>
 
             <div class="feature-item reverse">
                 <div class="feature-content">
-                    <h3>Seamless Login & Smart User Interface</h3>
-                    <p>Your journey starts with a smooth and secure login process. Our app ensures your data is protected while delivering a personalized and visually rich interface.
-
-✔️ Fast & secure password login
-✔️ Forgot password recovery
-✔️ Beautiful, immersive user dashboard
-✔️ Smart contact assignment and task management</p>
+                    <h3>Vật Tư Cấp Thoát Nước</h3>
+                    <p>Đầy đủ các loại vật tư cho hệ thống cấp thoát nước:
+✔️ Ống nhựa, ống gang, ống thép các loại
+✔️ Phụ kiện ống: co, tê, van, khớp nối
+✔️ Thiết bị đo lường và điều khiển
+✔️ Vật liệu chống thấm, bảo vệ ống</p>
                 </div>
                 <div class="feature-image">
-                    <img src="images/feature-2.png" alt="Feature 2">
+                    <img src="images/feature-2.png" alt="Vật tư cấp thoát nước">
                 </div>
             </div>
 
             <div class="feature-item">
                 <div class="feature-content">
-                    <h3>Create Your Own Avatar
-Be Unique. Be You.</h3>
-                    <p>Bring your personality to life with fully customizable avatars. From hairstyle to outfit — build a look that truly represents you.
+                    <h3>Dịch Vụ Tư Vấn & Thi Công
+Chuyên Nghiệp - Uy Tín</h3>
+                    <p>Đội ngũ kỹ sư giàu kinh nghiệm cung cấp dịch vụ toàn diện:
+✔️ Tư vấn thiết kế hệ thống cấp thoát nước
+✔️ Thi công, lắp đặt thiết bị
+✔️ Bảo trì, sửa chữa hệ thống
+✔️ Đào tạo vận hành và bảo dưỡng
 
-✔️ Easy-to-use avatar builder
-✔️ Multiple styles, accessories, and outfits
-✔️ Real-time preview and updates
-✔️ Express yourself in a fun and creative way
-
-Your digital identity starts here. Let's style it up!</p>
+Cam kết chất lượng - Đảm bảo tiến độ!</p>
                 </div>
                 <div class="feature-image">
-                    <img src="images/feature-3.png" alt="Feature 3">
+                    <img src="images/feature-3.png" alt="Dịch vụ tư vấn thi công">
                 </div>
             </div>
         </div>
@@ -125,13 +124,13 @@ Your digital identity starts here. Let's style it up!</p>
 
     <section class="app-screens">
         <div class="container">
-            <h2 class="section-title">Explore a World of Possibilities</h2>
+            <h2 class="section-title">Khám Phá Giải Pháp Toàn Diện</h2>
             <div class="screens-slider">
-                <img src="images/screen-1.png" alt="App Screen 1">
-                <img src="images/screen-2.png" alt="App Screen 2">
-                <img src="images/screen-3.png" alt="App Screen 3">
-                <img src="images/screen-4.png" alt="App Screen 4">
-                <img src="images/screen-5.png" alt="App Screen 5">
+                <img src="images/screen-1.png" alt="Sản phẩm 1">
+                <img src="images/screen-2.png" alt="Sản phẩm 2">
+                <img src="images/screen-3.png" alt="Sản phẩm 3">
+                <img src="images/screen-4.png" alt="Sản phẩm 4">
+                <img src="images/screen-5.png" alt="Sản phẩm 5">
             </div>
             <div class="slider-dots">
                 <span class="dot active"></span>
@@ -143,19 +142,19 @@ Your digital identity starts here. Let's style it up!</p>
         </div>
     </section>
 
-    <section id="testimonials" class="testimonials">
+    <section id="about" class="testimonials">
         <div class="container">
-            <h2 class="section-title">The Minds Behind the Magic</h2>
-            <p class="section-subtitle">We're a passionate group of designers, developers, and dreamers committed to building seamless mobile experiences. Every feature you see — and every detail you feel — is the result of our shared vision for better digital products.</p>
+            <h2 class="section-title">Về Chúng Tôi</h2>
+            <p class="section-subtitle">Công ty TNHH Vật Tư Ngành Nước Miền Bắc được thành lập với sứ mệnh cung cấp các giải pháp toàn diện cho ngành nước. Với đội ngũ kỹ sư giàu kinh nghiệm và cam kết chất lượng, chúng tôi tự hào là đối tác tin cậy của nhiều doanh nghiệp và dự án lớn tại miền Bắc Việt Nam.</p>
             
             <div class="testimonials-avatars">
-                <div class="avatar active"><img src="images/avatar-1.jpg" alt="User 1"></div>
-                <div class="avatar"><img src="images/avatar-2.jpg" alt="User 2"></div>
-                <div class="avatar"><img src="images/avatar-3.jpg" alt="User 3"></div>
-                <div class="avatar"><img src="images/avatar-4.jpg" alt="User 4"></div>
-                <div class="avatar"><img src="images/avatar-5.jpg" alt="User 5"></div>
-                <div class="avatar"><img src="images/avatar-6.jpg" alt="User 6"></div>
-                <div class="avatar"><img src="images/avatar-7.jpg" alt="User 7"></div>
+                <div class="avatar active"><img src="images/avatar-1.jpg" alt="Kỹ sư 1"></div>
+                <div class="avatar"><img src="images/avatar-2.jpg" alt="Kỹ sư 2"></div>
+                <div class="avatar"><img src="images/avatar-3.jpg" alt="Kỹ sư 3"></div>
+                <div class="avatar"><img src="images/avatar-4.jpg" alt="Kỹ sư 4"></div>
+                <div class="avatar"><img src="images/avatar-5.jpg" alt="Kỹ sư 5"></div>
+                <div class="avatar"><img src="images/avatar-6.jpg" alt="Kỹ sư 6"></div>
+                <div class="avatar"><img src="images/avatar-7.jpg" alt="Kỹ sư 7"></div>
             </div>
         </div>
     </section>
@@ -163,62 +162,64 @@ Your digital identity starts here. Let's style it up!</p>
     <section id="faq" class="faq">
         <div class="container">
             <div class="faq-content">
-                <h2 class="section-title">FAQ</h2>
+                <h2 class="section-title">Câu Hỏi Thường Gặp</h2>
                 <div class="accordion">
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>1. How do I download and install the app?</h3>
+                            <h3>1. Công ty có cung cấp dịch vụ tư vấn thiết kế không?</h3>
                             <span class="icon"><i class="fas fa-chevron-down"></i></span>
                         </div>
                         <div class="accordion-content">
-                            <p>You can download the app directly from Google Play. Just search for our name, tap "Install", and you're ready to go.</p>
+                            <p>Có, chúng tôi cung cấp dịch vụ tư vấn thiết kế hệ thống cấp thoát nước với đội ngũ kỹ sư giàu kinh nghiệm.</p>
                         </div>
                     </div>
 
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>2. Is the app free to use?</h3>
+                            <h3>2. Công ty có bảo hành sản phẩm không?</h3>
                             <span class="icon"><i class="fas fa-chevron-down"></i></span>
                         </div>
                         <div class="accordion-content">
-                            <p>You can download the app directly from Google Play. Just search for our name, tap "Install", and you're ready to go.</p>
+                            <p>Tất cả sản phẩm đều có chế độ bảo hành theo tiêu chuẩn nhà sản xuất và cam kết chất lượng của công ty.</p>
                         </div>
                     </div>
 
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>3. Can I use the app offline?</h3>
+                            <h3>3. Công ty có cung cấp dịch vụ bảo trì không?</h3>
                             <span class="icon"><i class="fas fa-chevron-down"></i></span>
                         </div>
                         <div class="accordion-content">
-                            <p>Some features are available offline, like viewing saved data. For full functionality, an internet connection is recommended.</p>
+                            <p>Có, chúng tôi cung cấp dịch vụ bảo trì, sửa chữa và vận hành hệ thống cấp thoát nước định kỳ.</p>
                         </div>
                     </div>
 
                     <div class="accordion-item">
                         <div class="accordion-header">
-                            <h3>4. How do I reset my password?</h3>
+                            <h3>4. Công ty có làm việc với dự án ngoài tỉnh không?</h3>
                             <span class="icon"><i class="fas fa-chevron-down"></i></span>
                         </div>
                         <div class="accordion-content">
-                            <p>Go to the login screen and tap "Forgot Password." You'll receive an email with instructions to reset your password.</p>
+                            <p>Có, chúng tôi nhận thi công các dự án tại các tỉnh miền Bắc và các khu vực lân cận.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="faq-image">
-                <img src="images/faq-image.png" alt="FAQ Image">
+                <img src="images/faq-image.png" alt="Hình ảnh FAQ">
             </div>
         </div>
         <div class="faq-cta">
             <div class="container">
                 <div class="cta-box">
-                    <h3>Professional or Developer version?</h3>
-                    <p>Unlock the right tools for your workflow.
-The Professional version is perfect for everyday users who want advanced features with simplicity.
-The Developer version offers more customization, integrations, and dev-focused capabilities for building and scaling your projects.
+                    <h3>Bạn cần tư vấn hay báo giá?</h3>
+                    <p>Hãy để chúng tôi giúp bạn:
+- Tư vấn lựa chọn thiết bị phù hợp
+- Báo giá chi tiết và cạnh tranh
+- Hỗ trợ kỹ thuật 24/7
+- Dịch vụ hậu mãi tận tâm
 
-Choose the version that suits your goals — whether you're creating or optimizing.</p>
+Liên hệ ngay để được hỗ trợ tốt nhất!</p>
                 </div>
             </div>
         </div>
@@ -226,36 +227,36 @@ Choose the version that suits your goals — whether you're creating or optimizi
 
     <section id="news" class="news">
         <div class="container">
-            <h2 class="section-title">Latest News</h2>
+            <h2 class="section-title">Tin Tức & Cập Nhật</h2>
             <div class="news-grid">
                 <div class="news-item">
                     <div class="news-image">
-                        <img src="images/news-1.jpg" alt="News 1">
+                        <img src="images/news-1.jpg" alt="Tin tức 1">
                     </div>
                     <div class="news-content">
-                        <h3>New UI Toolkit Released</h3>
-                        <p>Discover our latest UI components designed to streamline app development and boost your design speed.
-Posted 2 days ago</p>
+                        <h3>Công Nghệ Xử Lý Nước Mới</h3>
+                        <p>Giới thiệu công nghệ xử lý nước tiên tiến giúp tiết kiệm chi phí và nâng cao hiệu quả.
+Đăng 2 ngày trước</p>
                     </div>
                 </div>
                 <div class="news-item">
                     <div class="news-image">
-                        <img src="images/news-2.jpg" alt="News 2">
+                        <img src="images/news-2.jpg" alt="Tin tức 2">
                     </div>
                     <div class="news-content">
-                        <h3>Mobile Experience Overhaul</h3>
-                        <p>We've revamped our app layout to make interactions faster and smoother than ever.
-Posted 1 week ago</p>
+                        <h3>Dự Án Nhà Máy Nước Hoàn Thành</h3>
+                        <p>Chúng tôi vừa hoàn thành dự án nhà máy nước sạch tại Hà Nội với công suất 50.000m3/ngày.
+Đăng 1 tuần trước</p>
                     </div>
                 </div>
                 <div class="news-item">
                     <div class="news-image">
-                        <img src="images/news-3.jpg" alt="News 3">
+                        <img src="images/news-3.jpg" alt="Tin tức 3">
                     </div>
                     <div class="news-content">
-                        <h3>Design Mockups Pack Now Available</h3>
-                        <p>Download free mockup templates to showcase your ideas in style.
-Posted 3 weeks ago</p>
+                        <h3>Triển Lãm Công Nghệ Nước 2024</h3>
+                        <p>Tham gia triển lãm công nghệ nước quốc tế tại Hà Nội với nhiều sản phẩm mới.
+Đăng 3 tuần trước</p>
                     </div>
                 </div>
             </div>
@@ -264,9 +265,9 @@ Posted 3 weeks ago</p>
 
     <section class="download">
         <div class="container">
-            <h2>What are you waiting for? Download Now!</h2>
+            <h2>Bạn cần tư vấn? Liên hệ ngay!</h2>
             <div class="app-buttons">
-                <a href="#" class="btn-app"><i class="fab fa-google-play"></i> Google Play</a>
+                <a href="#contact" class="btn-app"><i class="fas fa-phone"></i> Liên Hệ Ngay</a>
             </div>
         </div>
     </section>
@@ -276,7 +277,7 @@ Posted 3 weeks ago</p>
         <div class="container">
             <div class="contact-modal">
                 <div class="modal-header">
-                    <h2>Say Hello to Us</h2>
+                    <h2>Liên Hệ Với Chúng Tôi</h2>
                     <button class="close-btn" id="closeContactModal"><i class="fas fa-times"></i></button>
                 </div>
                
@@ -284,35 +285,35 @@ Posted 3 weeks ago</p>
                 <form id="contactForm" class="contact-form">
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="What is your name? *" required>
+                            <input type="text" id="name" name="name" placeholder="Họ và tên của bạn? *" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="What it your email? *" required>
+                            <input type="email" id="email" name="email" placeholder="Email của bạn? *" required>
                         </div>
                     </div>
                     
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="tel" id="phone" name="phone" placeholder="What is your phone number?" value="+12 345 678 90">
+                            <input type="tel" id="phone" name="phone" placeholder="Số điện thoại của bạn?" value="+84 359 900 669">
                         </div>
                         <div class="form-group">
-                            <input type="text" id="company" name="company" placeholder="What is your company?">
+                            <input type="text" id="company" name="company" placeholder="Tên công ty của bạn?">
                         </div>
                     </div>
                     
                     <div class="form-group full-width">
-                        <textarea id="message" name="message" placeholder="Write your message here" rows="5"></textarea>
+                        <textarea id="message" name="message" placeholder="Nội dung tin nhắn của bạn" rows="5"></textarea>
                     </div>
                     
                     <div class="form-group checkbox-group">
                         <label class="checkbox-container">
                             <input type="checkbox" id="terms" name="terms" required>
                             <span class="checkmark"></span>
-                            <span class="checkbox-text">I have read and accept the <a href="#" class="terms-link">Terms of Service & Privacy Policy</a> *</span>
+                            <span class="checkbox-text">Tôi đã đọc và chấp nhận <a href="#" class="terms-link">Điều khoản dịch vụ & Chính sách bảo mật</a> *</span>
                         </label>
                     </div>
                     
-                    <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                    <button type="submit" class="submit-btn">GỬI TIN NHẮN</button>
                 </form>
             </div>
         </div>
@@ -325,44 +326,42 @@ Posted 3 weeks ago</p>
                     <div class="logo">
                         <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                             <defs>
-                                <linearGradient id="phoneGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#8a2be2"/>
-                                    <stop offset="100%" stop-color="#4169e1"/>
+                                <linearGradient id="waterGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#0066cc"/>
+                                    <stop offset="100%" stop-color="#0099ff"/>
                                 </linearGradient>
-                                <linearGradient id="starGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#f5e1ff"/>
-                                    <stop offset="100%" stop-color="#c39bd3"/>
+                                <linearGradient id="dropGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#00ccff"/>
+                                    <stop offset="100%" stop-color="#66ccff"/>
                                 </linearGradient>
                             </defs>
-                            <rect x="20" y="10" width="60" height="80" rx="15" ry="15" fill="#2a1a46" stroke="url(#phoneGradient2)" stroke-width="4"/>
-                            <rect x="35" y="25" width="30" height="30" rx="8" ry="8" fill="#2a1a46" stroke="url(#phoneGradient2)" stroke-width="4"/>
-                            <polygon points="50,30 55,40 65,42 55,44 50,54 45,44 35,42 45,40" fill="url(#starGradient2)" stroke="#f5e1ff" stroke-width="1.5"/>
-                            <circle cx="50" cy="75" r="5" fill="none" stroke="#f5e1ff" stroke-width="4"/>
-                            <line x1="45" y1="15" x2="55" y2="15" stroke="#f5e1ff" stroke-width="4" stroke-linecap="round"/>
+                            <circle cx="50" cy="30" r="20" fill="url(#waterGradient2)"/>
+                            <path d="M50 50 Q50 80 30 90 Q50 85 70 90 Q50 80 50 50" fill="url(#dropGradient2)"/>
+                            <circle cx="45" cy="25" r="3" fill="white" opacity="0.8"/>
                         </svg>
                     </div>
-                    <h3 class="company-name">MIEN BAC WATER INDUSTRY SUPPLIES COMPANY LIMITED</h3>
+                    <h3 class="company-name">CÔNG TY TNHH VẬT TƯ NGÀNH NƯỚC MIỀN BẮC</h3>
                 </div>
                 <div class="footer-column">
-                    <h3>Contact</h3>
+                    <h3>Thông Tin Liên Hệ</h3>
                     <ul class="contact-info">
-                        <li><i class="fas fa-map-marker-alt"></i> Tu Hamlet, Phu Dong Commune, Gia Lam District, Hanoi City, Vietnam</li>
-                        <!-- <li><i class="fas fa-phone"></i> 0359900669</li> -->
+                        <li><i class="fas fa-map-marker-alt"></i> Thôn Tự, Xã Phù Đổng, Huyện Gia Lâm, TP. Hà Nội, Việt Nam</li>
+                        <li><i class="fas fa-phone"></i> 0359900669</li>
                         <li><i class="fas fa-envelope"></i> minhhang68930@gmail.com</li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Links</h3>
+                    <h3>Liên Kết</h3>
                     <ul>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#testimonials">About Us</a></li>
+                        <li><a href="#features">Sản phẩm</a></li>
+                        <li><a href="#about">Về chúng tôi</a></li>
                         <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#contact">Liên hệ</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 MIEN BAC WATER INDUSTRY SUPPLIES COMPANY LIMITED. All rights reserved.</p>
+                <p>&copy; 2024 CÔNG TY TNHH VẬT TƯ NGÀNH NƯỚC MIỀN BẮC. Tất cả quyền được bảo lưu.</p>
             </div>
         </div>
     </footer>
